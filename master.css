@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1200px;
+  margin: auto;
+  background-image: url(img/sfondo.png);
+}
+header{
+  height: 400px;
+  width: 100%;
+  margin-top: 10px;
+  border: 10px solid white;
+  background-image: url(img/titolo.png), url(img/testata.png);
+  background-size: 100% 100%;
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+nav{
+  height: 70px;
+  width: 100%;
+  background-color: #a6a2a5;
+}
+li{
+  list-style: none;
+}
+nav > .nav > ul{
+  width: 683px;
+  margin: auto;
+  text-align: center;
+}
+nav > .nav > ul > li{
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 70px;
+  color: white;
+}
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+  margin: 20px 0px;
+}
+.blocco1{
+  float: left;
+  width: 20%;
+  height: 320px;
+  background-color: white;
+  position: relative;
+  border-radius: 2%;
+}
+.simbolo{
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  left: 37px;
+}
+img{
+  position: absolute;
+  left: 5px;
+  top: 3px;
+}
+.listato{
+  position: absolute;
+  top: 65px;
+}
+.listato > ul > li{
+  list-style: none;
+  margin-top: 10px;
+  color: green;
+  margin-left: 5px;
+}
+.blocco2{
+  float: left;
+  width: 50%;
+  height: 450px;
+  margin: 0px 90px;
+  background-color: white;
+  border-radius: 2%;
+  padding: 20px;
+}
+.titoli{
+  margin-bottom: 50px;
+}
+.colonna-destra{
+  float: left;
+  height: 900px;
+  width: 15%;
+}
+.blocco3{
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2%;
+  padding: 20px;
+}
+.blocco4{
+  margin-top: 10px;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2%;
+  padding: 20px;
+}
+.blocco5{
+  margin-top: 10px;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2%;
+  padding: 20px;
+}
+footer{
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
