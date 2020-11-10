@@ -125,7 +125,7 @@ img{
 footer{
   width: 100%;
   height: 300px;
-  background-color: orange;
+  background-color: white;
   border-radius:2%;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -140,10 +140,11 @@ footer{
   width: 1190px;
   text-align: center;
 }
-.loghi{
-  height: 150px;
-  width: 150px;
-  position: relative;
-  background-size: cover;
-  top: 10px;
+footer > ol > li{
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  line-height: 70px;
+
 }
